@@ -1,0 +1,323 @@
+@font-face{
+    font-family: School Girls;
+    src: url('../../fonts/School_Girls/Schoolgirls.otf');
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body{
+	--cor-fundo:		#F8F8F8;
+	--cor-azulClaro:	#2560A8;
+	--cor-azulEscuro:	#153761;
+	--cor-verdeClaro:	#1EF53F;
+	--cor-verdeEscuro:	#00AD31;
+	--cor-verdeHover:  	#008B27;
+
+    font-family: 'School Girls';
+
+	background: var(--cor-fundo) url('../../images/site/img_background.png') no-repeat;
+	background-position: 45vw 20vh;
+}
+
+/* HEADER */
+.header img {
+    max-width: 283px;
+	max-height: 40px;
+}
+
+/* Sign In Button */
+.header .login a {
+    text-decoration: none;
+    font-weight: 400;
+	font-size: 16px;
+	color: #000;
+    transition: 0.3s;
+    padding: 6px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+}
+
+.header .login a i {
+    color: var(--cor-verdeClaro);
+}
+
+.header .login a:hover {
+    background: #d4d4d4;
+}
+
+/* FOOTER */
+.footer {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(214, 214, 214, 0.3);
+}
+
+.footer img {
+    height: 15px;
+}
+
+/* CONTENT */
+.main-content {
+    margin-top: 5%;
+}
+
+.main-content .title {
+    color: var(--cor-azulEscuro);
+}
+
+.main-content .subtitle {
+    color: var(--cor-azulClaro);
+    font-size: 25px;
+}
+
+.main-content .subtitle .icon {
+    color: var(--cor-verdeEscuro);
+    font-size: 70px;
+}
+
+/* Search Point Button */
+.main-content .search-point-button {
+    margin-top: 7%;
+    letter-spacing: 2px;
+}
+
+.main-content .search-point-button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.main-content .search-point-button a .search-icon {
+    background: var(--cor-verdeEscuro);
+    padding: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.main-content .search-point-button a .search-icon label{
+    font-size: 22px;
+}
+
+.main-content .search-point-button a .search-text {
+    background: var(--cor-verdeClaro);
+    padding: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.3s;
+}
+
+.main-content .search-point-button a .search-text:hover {
+    background: var(--cor-verdeHover);
+}
+
+/* Breadcumbs */
+.breadcumbs {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.breadcumbs a {
+    text-decoration: none;
+    color: #000;
+    transition: 0.1s;
+}
+
+.breadcumbs a:hover {
+    text-decoration: underline;
+}
+
+/* Sign Up Form */
+.sign-up-form .title {
+    color: var(--cor-azulEscuro);
+}
+
+.sign-up-form label {
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.sign-up-form input {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sign-up-form select {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sign-up-form span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+
+.sign-up-form .form-text {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sign-up-form .buttons {
+    float: right;
+}
+
+/* Sign In Form */
+.sign-in-form .title {
+    color: var(--cor-azulEscuro);;
+}
+
+.sign-in-form label {
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.sign-in-form input {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sign-in-form .form-text {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sign-in-form .buttons {
+    float: right;
+}
+
+.sign-in-form .buttons button {
+    letter-spacing: 2px;
+}
+
+.sign-in-form a {
+    float: left;
+    text-decoration: none;
+    font-size: 14px;
+    color: var(--cor-azulEscuro);
+    transition: 0.3s;
+}
+
+.sign-in-form a:hover {
+    color: var(--cor-azulClaro);
+}
+
+/* Points */
+.points label {
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.points select {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.points span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+
+.points .buttons {
+    float: right;
+}
+
+.points .filter-results {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.points .filter-results .card {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 0 0;
+    width: 15rem;
+}
+
+.points .filter-results .card img {
+    max-height: 150px;
+}
+
+.points .filter-results .card .card-title {
+    font-weight: bold;
+}
+
+.points .filter-results .card .detailsBtn {
+    color: #fff;
+    background: var(--cor-verdeClaro);
+    border: none;
+    border-left: 7px solid var(--cor-verdeEscuro);
+    transition: 0.3s;
+}
+
+.points .filter-results .card .detailsBtn:hover {
+    background: var(--cor-verdeEscuro);
+    border-left: 7px solid var(--cor-verdeClaro);
+}
+
+.points .filter-results .modal {
+    padding: 0 0;
+}
+
+.points .filter-results .modal .modal-dialog .modal-content .modal-body img {
+    width: 100%;
+}
+
+.points .filter-results .modal .modal-dialog .modal-content .modal-body dl dt {
+    font-size: 20px;
+}
+
+/* MY ACCOUNT */
+.myaccount .title {
+    color: var(--cor-azulEscuro);
+}
+
+/* SIGNATURES */
+.signatures .title {
+    color: var(--cor-azulEscuro);
+}
+
+.signatures #bronze {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.signatures #gold {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.signatures #silver {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.signatures .card {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 0 0;
+    box-shadow: 2px 1px 12px black;
+}
+
+.signatures .card .card-title {
+    font-weight: bold;
+}
+
+.signatures .card .card-header {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.signatures .card .list-group .list-group-item {
+    font-size: 18px;
+}
+
+.signatures .card .list-group .list-group-item legend {
+    font-size: 11px;
+}
+
+.signatures .card .card-body i {
+    color: var(--cor-verdeClaro);
+}
+
+.signatures .blockquote {
+    font-size: 25px;
+}
+
+.signatures .blockquote .contact-us i {
+    font-size: 8rem;
+    color: var(--cor-verdeClaro);
+}
